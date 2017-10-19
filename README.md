@@ -1,9 +1,15 @@
 # tests
 
-Test Sequence Diagrams [![Bower](https://img.shields.io/bower/v/test-sequence-diagrams.svg)](https://libraries.io/bower/js-sequence-diagrams) [![Build Status](https://img.shields.io/travis/bramp/js-sequence-diagrams.svg)](https://travis-ci.org/bramp/js-sequence-diagrams) [![Code Climate](https://img.shields.io/codeclimate/github/bramp/js-sequence-diagrams.svg)](https://codeclimate.com/github/bramp/js-sequence-diagrams) [![Libraries.io](https://img.shields.io/librariesio/github/bramp/js-sequence-diagrams.svg)](https://libraries.io/github/bramp/js-sequence-diagrams) ![License](https://img.shields.io/npm/l/js-sequence-diagrams.svg)
+Test Sequence Diagrams
+[![Bower](https://img.shields.io/bower/v/test-sequence-diagrams.svg)](https://libraries.io/bower/test-sequence-diagrams)
+
+[![Build Status](https://img.shields.io/travis/bramp/test-sequence-diagrams.svg)]
+(https://travis-ci.org/bramp/test-sequence-diagrams)
+
+[![Code Climate](https://img.shields.io/codeclimate/github/bramp/test-sequence-diagrams.svg)](https://codeclimate.com/github/bramp/test-sequence-diagrams) [![Libraries.io](https://img.shields.io/librariesio/github/bramp/test-sequence-diagrams.svg)](https://libraries.io/github/bramp/test-sequence-diagrams) ![License](https://img.shields.io/npm/l/test-sequence-diagrams.svg)
 =============================================
 **Generates UML sequence diagrams from simple text**  
-<https://bramp.github.io/js-sequence-diagrams/>
+<https://bramp.github.io/test-sequence-diagrams/>
 
 by [Andrew Brampton](https://bramp.net) 2012-2017
 
@@ -18,7 +24,7 @@ We turn
 
 into
 
-![Sample generated UML diagram](https://bramp.github.io/js-sequence-diagrams/images/sample.svg)
+![Sample generated UML diagram](https://bramp.github.io/test-sequence-diagrams/images/sample.svg)
 
 Requirements
 ------------
@@ -30,19 +36,19 @@ Installation
 
 ### bower
 
-Run `bower install bramp/js-sequence-diagrams` and include the scripts below:
+Run `bower install bramp/test-sequence-diagrams` and include the scripts below:
 
 ```html
 <script src="{{ bower directory }}/bower-webfontloader/webfont.js" />
 <script src="{{ bower directory }}/snap.svg/dist/snap.svg-min.js" />
 <script src="{{ bower directory }}/underscore/underscore-min.js" />
-<script src="{{ bower directory }}/js-sequence-diagrams/dist/sequence-diagram-min.js" />
+<script src="{{ bower directory }}/test-sequence-diagrams/dist/sequence-diagram-min.js" />
 ```
 
 also import the CSS if you plan to use the hand drawn theme:
  
 ```html
-<link href="{{ bower directory }}/js-sequence-diagrams/dist/sequence-diagram-min.css" rel="stylesheet" />
+<link href="{{ bower directory }}/test-sequence-diagrams/dist/sequence-diagram-min.css" rel="stylesheet" />
 ```
 
 Not using bower? No problem. Just download the dependencies, and include them yourself.
@@ -73,7 +79,7 @@ or use jQuery to do all the work:
 </script>
 ```
 
-For full examples check out [the demo site](https://bramp.github.io/js-sequence-diagrams/).
+For full examples check out [the demo site](https://bramp.github.io/test-sequence-diagrams/).
 
 Options
 -------
@@ -188,12 +194,12 @@ TODO
   * The font seems to have extra margin at the bottom.
   * The wiggly lines don't always touch.
 
-* Dozens of other issues on [https://github.com/bramp/js-sequence-diagrams/issues](https://github.com/bramp/js-sequence-diagrams/issues)
+* Dozens of other issues on [https://github.com/bramp/test-sequence-diagrams/issues](https://github.com/bramp/test-sequence-diagrams/issues)
 
 Contributors
 ------------
 
-via [GitHub](https://github.com/bramp/js-sequence-diagrams/graphs/contributors)
+via [GitHub](https://github.com/bramp/test-sequence-diagrams/graphs/contributors)
 
 Thanks
 ------
