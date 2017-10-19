@@ -212,12 +212,6 @@ Contributors
 
 via [GitHub](https://github.com/tst/test-sequence-diagrams/graphs/contributors)
 
-Thanks
-------
-This project makes use of [Jison](https://zaach.github.io/jison/), snap.svg, underscore.js, and the awersome [Daniel font](http://www.dafont.com/daniel.font) (which is free to use for any purpose).
-
-Many thanks to [Web Sequence Diagrams](http://www.websequencediagrams.com/) which greatly inspired this project, and forms the basis for the syntax.
-
 Related
 -------
 
