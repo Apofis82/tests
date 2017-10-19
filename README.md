@@ -1,17 +1,28 @@
 # tests
 
 Test Sequence Diagrams
+
 [![Bower](https://img.shields.io/bower/v/test-sequence-diagrams.svg)](https://libraries.io/bower/test-sequence-diagrams)
 
-[![Build Status](https://img.shields.io/travis/bramp/test-sequence-diagrams.svg)]
-(https://travis-ci.org/bramp/test-sequence-diagrams)
+[![Build Status](https://img.shields.io/travis/tst/test-sequence-diagrams.svg)](https://travis-ci.org/tst/test-sequence-diagrams)
 
-[![Code Climate](https://img.shields.io/codeclimate/github/bramp/test-sequence-diagrams.svg)](https://codeclimate.com/github/bramp/test-sequence-diagrams) [![Libraries.io](https://img.shields.io/librariesio/github/bramp/test-sequence-diagrams.svg)](https://libraries.io/github/bramp/test-sequence-diagrams) ![License](https://img.shields.io/npm/l/test-sequence-diagrams.svg)
+[![Code Climate](https://img.shields.io/codeclimate/github/tst/test-sequence-diagrams.svg)](https://codeclimate.com/github/tst/test-sequence-diagrams) [![Libraries.io](https://img.shields.io/librariesio/github/tst/test-sequence-diagrams.svg)](https://libraries.io/github/tst/test-sequence-diagrams) ![License](https://img.shields.io/npm/l/test-sequence-diagrams.svg)
+
+#### Waffle.IO Board
+- [![Stories in Acknowledged](https://badge.waffle.io/grails/grails-core.png?label=Acknowledged&title=Acknowledged)](https://waffle.io/grails/grails-core)
+- [![Stories in Progress](https://badge.waffle.io/grails/grails-core.png?label=in%20progress&title=In%20Progress)](http://waffle.io/grails/grails-core)
+
+#### Build Status
+- [![Build Status](https://travis-ci.org/grails/grails-core.svg?branch=master)](https://travis-ci.org/grails/grails-core)
+
+#### Slack Signup
+- [![Slack Signup](http://slack-signup.grails.org/badge.svg)](http://slack-signup.grails.org)
+
 =============================================
 **Generates UML sequence diagrams from simple text**  
-<https://bramp.github.io/test-sequence-diagrams/>
+<https://tst.github.io/test-sequence-diagrams/>
 
-by [Andrew Brampton](https://bramp.net) 2012-2017
+by [toy tstton](https://tst.net) 2012-2017
 
 
 Example
@@ -24,7 +35,7 @@ We turn
 
 into
 
-![Sample generated UML diagram](https://bramp.github.io/test-sequence-diagrams/images/sample.svg)
+![Sample generated UML diagram](https://tst.github.io/test-sequence-diagrams/images/sample.svg)
 
 Requirements
 ------------
@@ -36,7 +47,7 @@ Installation
 
 ### bower
 
-Run `bower install bramp/test-sequence-diagrams` and include the scripts below:
+Run `bower install tst/test-sequence-diagrams` and include the scripts below:
 
 ```html
 <script src="{{ bower directory }}/bower-webfontloader/webfont.js" />
@@ -79,7 +90,7 @@ or use jQuery to do all the work:
 </script>
 ```
 
-For full examples check out [the demo site](https://bramp.github.io/test-sequence-diagrams/).
+For full examples check out [the demo site](https://tst.github.io/test-sequence-diagrams/).
 
 Options
 -------
@@ -194,12 +205,12 @@ TODO
   * The font seems to have extra margin at the bottom.
   * The wiggly lines don't always touch.
 
-* Dozens of other issues on [https://github.com/bramp/test-sequence-diagrams/issues](https://github.com/bramp/test-sequence-diagrams/issues)
+* Dozens of other issues on [https://github.com/tst/test-sequence-diagrams/issues](https://github.com/tst/test-sequence-diagrams/issues)
 
 Contributors
 ------------
 
-via [GitHub](https://github.com/bramp/test-sequence-diagrams/graphs/contributors)
+via [GitHub](https://github.com/tst/test-sequence-diagrams/graphs/contributors)
 
 Thanks
 ------
