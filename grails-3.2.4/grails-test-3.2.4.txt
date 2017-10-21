@@ -1,0 +1,17 @@
+Grails 3.2.4 Test:
+? logback.groovy file or logback.xml
+
+Profiles: https://repo.grails.org/grails/core/org/grails/profiles
+
+https://github.com/grails/grails3-functional-tests/tree/3.1.x
+
+https://github.com/grails3-plugins/scaffolding/blob/master/src/main/scripts/
+
+http://grails.org/plugin/scaffold-tags
+https://grails.org/plugin/groovybinder
+
+--------------------------
+http://docs.grails.org/latest/guide/single.html#applyingConstraints
+http://mrhaki.blogspot.com.es/2015/09/grails-goodness-using-external.html
+http://plugins.grails.org/plugin/bertramlabs/retina-tag
+https://github.com/grails3-plugins/fields

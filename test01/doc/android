@@ -1,0 +1,141 @@
+
+http://www.androidapkgratis.com
+http://en.uptodown.com/android
+http://venomvendor.blogspot.com.es/2012/01/how-to-view-source-code-of-android-apk.html
+http://android-dls.com/wiki/index.php?title=Magic_Root_Access
+http://www.filecrop.com/Doom-Lord-v3-root.html
+
+---------------------
+Objective C, Iphone SDK
+BBDD NoSQL, mongoDB
+Unity, Spriter
+RSS
+NIBs XIBs, MVCApp, interface Builder
+iCloud
+LUA
+Corona SDK
+
+-------------------
+Programa
+
+Modulo 1. Programación de Pseudocódigo y java
+Modulo 2. Programación de aplicaciones para sistemas android
+Modulo 3. Programación de aplicaciones para iphone
+Modulo 4. Programador de videojuegos para sistemas android y iphone
+Modulo 5. Generación de negocio basado en servicios móviles
+Módulo 6. Gestión de servicios y dispositivos móviles
+Módulo 7. Seguridad en sistemas y servicios móviles
+--------------------
+Unidades del curso:
+
+1. INTRODUCCIÓN A LUA
+
+Introducción a Lua
+Variables: tipo y ámbito
+Tipos de expresiones
+Condicionales y bucles
+Funciones
+Módulos
+
+2. INTRODUCCIÓN A CORONA SDK
+
+Descargando e instalando
+Editores Lua disponibles
+Ejecución y prueba en el simulador
+Código y librerías disponibles
+Estructura de un proyecto
+Como probar en el dispositivo
+
+3. LIBRERÍAS LUA
+
+Sistema de ficheros y acceso
+Variables: tipo y ámbito
+Tipos de expresiones
+Condicionales y bucles
+
+4. COMENZANDO A DESARROLLAR JUEGOS
+
+Configuración
+Display
+Funciones del sistema
+Modelo de eventos
+Detección e interacción con usuario
+Ejemplos: app y juego sencillos
+
+5. GESTIÓN Y CONTROL DE GRÁFICOS
+
+Escalado y resolución dinámica
+Objetos display
+Objetos: imágenes y grupos
+Líneas y polilíneas
+Texto en pantalla
+Ejemplos
+
+6. INTERACIÓN CON EL USUARIO
+
+Arrastrar objetos
+Tipos de eventos y funciones
+Multitouch
+
+7. GESTIÓN DE SONIDO: CORONA AUDIO SYSTEM
+
+Multimedia: sonido, imágenes, videos
+Audio: sonidos y música
+Formatos de sonido
+Sonidos simultáneos y canales
+Control de sonido: volumen, fading,…
+Ejemplos
+
+8. ANIMACIÓN AVANZADA
+
+Animación de objetos
+Sprite sheet
+Parallax scrolling
+Efectos de particulas
+
+9. FÍSICA DE OBJETOS
+
+Física del juego
+Propiedades y métodos de cuerpos
+Interactuar con gravedad
+Detección de colisiones
+Uniones complejas de objetos
+Ejemplo: simulación con box2d
+
+10. ACCEDAMOS AL HARDWARE DEL DISPOSITIVO
+
+GPS
+Brújula
+Acelerómetro
+Giroscopio
+Cámara de fotos
+Detección de sensores
+
+11. STORYBOARD Y SCENE TEMPLATE
+
+Librería storyboard
+Esquema de funcionamiento
+Transiciones
+Ejemplo: menú de aplicación
+
+12. LIBRERÍAS DE TERCEROS
+
+Corona cloud
+X-pressive
+Corona svg level builder
+Otras librerías
+Ejemplo
+
+13. PROYECTO: CREACIÓN DE UN JUEGO COMPLETO
+
+Recursos
+Proyecto
+Código Lua
+Versión con gráficos
+Ejemplos ampliados
+
+14. PRINCIPALES TECNOLOGÍAS PARA DESARROLLO NATIVO DE VIDEOJUEGOS PARA ANDROID & IPHONE
+
+Introducción al desarrollo nativo
+Desarrollo nativo Android & iOS
+Desarrollo nativo cross-compilation (cocos2d y marmalade)

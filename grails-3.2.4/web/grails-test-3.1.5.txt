@@ -1,0 +1,57 @@
+Grails 3.1.5 Test:
+create-app test
+install-templates
+run-app --port=8084
+? datasorces by env
+? application-{env}.yml or application-{env}.properties (ex: application-custom.yml, application-production.properties)
+? logback.groovy file or logback.xml
+? schema-export
+test-app -integration
+
+Profiles: https://repo.grails.org/grails/core/org/grails/profiles
+
+grails create-functional-test MyGebScenario
+http://www.gebish.org/manual/current/
+https://github.com/grails/grails3-functional-tests/tree/3.1.x
+https://github.com/grails-plugins/grails-spring-security-core
+
+templates (DefaultGrailsTemplateGenerator.groovy)
+https://github.com/grails3-plugins/fields/blob/master/grails-app/taglib/grails/plugin/formfields/FormFieldsTagLib.groovy
+C:\Servidores App\grails-2.2.1\scripts\_GrailsGenerate.groovy
+https://github.com/grails/grails-core/releases
+https://github.com/gramant/grails-core-old/tree/master/grails-crud/src/main/groovy/org/codehaus/groovy/grails/scaffolding
+https://github.com/grails3-plugins/scaffolding/blob/master/src/main/scripts/
+
+https://grails.org/wiki/Scaffolding%20of%20field%20editors
+https://grails.org/wiki/ScaffoldTags%20Plugin
+https://grails.org/plugins/search?q=scaffold-tag
+http://grails.org/plugin/scaffold-tags
+https://grails.org/plugin/groovybinder
+
+https://github.com/grails/grails-core/blob/master/grails-plugin-domain-class/src/main/groovy/grails/artefact/DomainClass.groovy
+grails.core.GrailsDomainClass
+org.grails.datastore.mapping.model.PersistentEntity
+org.grails.datastore.mapping.model.PersistentProperty
+
+--------------------------
+https://grails.github.io/grails-doc/latest/ref/Command%20Line/schema-export.html
+https://grails.github.io/grails-doc/latest/guide/upgrading.html#upgrading3x
+http://grails.github.io/grails-doc/latest/guide/single.html#gormConstraints
+http://mrhaki.blogspot.com.es/2015/09/grails-goodness-using-external.html
+grails -Dgrails.env=custom run-app
+grails prod run-app
+http://grails.github.io/grails-doc/latest/guide/conf.html
+
+environments {
+    production {
+        grails.serverURL = "http://www.changeme.com"
+        grails.dbconsole.enabled = true
+        grails.dbconsole.urlRoot = '/admin/dbconsole'
+    }
+    development {
+        grails.serverURL = "http://localhost:8080/${appName}"
+    }
+    test {
+        grails.serverURL = "http://localhost:8080/${appName}"
+    }
+}
