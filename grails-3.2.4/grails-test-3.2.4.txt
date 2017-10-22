@@ -3,6 +3,7 @@ Grails 3.2.4 Test:
 
 Profiles: https://repo.grails.org/grails/core/org/grails/profiles
 
+https://github.com/grails-samples?page=1
 https://github.com/grails/grails3-functional-tests/tree/3.1.x
 
 https://github.com/grails3-plugins/scaffolding/blob/master/src/main/scripts/
