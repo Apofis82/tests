@@ -24,6 +24,10 @@
 -- custom-profile
 
 * Grails-3.2.4 Web
+-- command
 -- template-3.2.4
+
+* Grails-3.2.4 Web Plugin
+-- web-plugin
 
 * test01
