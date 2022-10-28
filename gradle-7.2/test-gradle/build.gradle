@@ -1,0 +1,23 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.12'
+    implementation 'com.google.guava:guava:31.1-jre'
+    testImplementation 'org.spockframework:spock-core:2.1-groovy-3.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+    mainClass = 'test.App'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

@@ -16,6 +16,10 @@
 
 [![Code Climate](https://img.shields.io/codeclimate/github/tst/test-sequence-diagrams.svg)](https://codeclimate.com/github/tst/test-sequence-diagrams) [![Libraries.io](https://img.shields.io/librariesio/github/tst/test-sequence-diagrams.svg)](https://libraries.io/github/tst/test-sequence-diagrams) ![License](https://img.shields.io/npm/l/test-sequence-diagrams.svg)
 
+# Tests on Gradle (github/tests)
+* Gradle-7.2
+-- test-gradle
+
 # Tests on Grails (github/tests)
 * Grails-2.2.1
 -- template-2.2.1
@@ -30,4 +34,13 @@
 * Grails-3.2.4 Web Plugin
 -- web-plugin
 
+* Grails-5.2.4
+-- app-profile-base
+-- create-profile-sample
+-- grails-sample
+-- plugin-sample
+-- web-plugin-sample
+
 * test01
+
+* resources/img

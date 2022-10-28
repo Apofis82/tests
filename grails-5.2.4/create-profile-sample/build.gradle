@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url "https://repo.grails.org/grails/core" }
+    }
+    dependencies {
+        classpath "org.grails:grails-gradle-plugin:${project.grailsGradlePluginVersion}"
+    }
+}
+
+apply plugin: "org.grails.grails-profile"
+
+group 'org.grails.profiles'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    maven { url "https://repo.grails.org/grails/core" }
+}  
+
+dependencies {
+    profileRuntimeOnly "org.grails.profiles:base:$baseProfileVersion"
+}
