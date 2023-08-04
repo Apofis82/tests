@@ -21,9 +21,6 @@
 -- test-gradle
 
 # Tests on Grails (github/tests)
-* Grails-2.2.1
--- template-2.2.1
-
 * Grails-3.2.4 Profile
 -- custom-profile
 
@@ -37,10 +34,9 @@
 * Grails-5.2.4
 -- app-profile-base
 -- create-profile-sample
+-- grails-rest-sample
 -- grails-sample
 -- plugin-sample
 -- web-plugin-sample
 
-* test01
-
-* resources/img
+* res/img
