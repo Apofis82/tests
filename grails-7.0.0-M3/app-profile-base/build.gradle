@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        maven { url "https://repo.grails.org/grails/core" }
+        mavenCentral()
+    }
+    dependencies {
+        classpath platform("org.grails:grails-bom:$grailsVersion")
+        classpath "org.grails:grails-gradle-plugin"
+    }
+}
+
+version "0.1"
+group "app.profile.base"
+
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"org.grails.grails-core"
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.grails.org/grails/core" }
+}
+
+dependencies {
+    implementation platform("org.grails:grails-bom:$grailsVersion")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    integrationTestImplementation testFixtures("org.grails.plugins:geb")
+    console "org.grails:grails-console"
+    developmentOnly "org.webjars.npm:bootstrap"
+    developmentOnly "org.webjars.npm:bootstrap-icons"
+    developmentOnly "org.webjars.npm:jquery"
+    implementation "org.springframework.boot:spring-boot-starter-logging"
+    implementation "org.springframework.boot:spring-boot-starter-validation"
+    implementation "org.springframework.boot:spring-boot-autoconfigure"
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "org.grails:grails-core"
+    profile "org.grails.profiles:base"
+    testImplementation "org.grails:grails-gorm-testing-support"
+}
+
+compileJava.options.release = 17
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+}

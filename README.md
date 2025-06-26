@@ -39,4 +39,12 @@
 -- plugin-sample
 -- web-plugin-sample
 
+* Grails-7.0.0-M3
+-- app-profile-base
+-- create-profile-sample
+-- grails-rest-sample
+-- grails-sample
+-- plugin-sample
+-- web-plugin-sample
+
 * res/img
