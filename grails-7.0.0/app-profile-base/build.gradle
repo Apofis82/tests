@@ -1,0 +1,56 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://repo.grails.org/grails/restricted" }
+        maven {
+           url = 'https://repository.apache.org/content/groups/snapshots'
+           content {
+              includeVersionByRegex('org[.]apache[.](grails|groovy).*', '.*', '.*-SNAPSHOT')
+           }
+        }
+    }
+    dependencies {
+        classpath platform("org.apache.grails:grails-bom:$grailsVersion")
+        classpath "org.apache.grails:grails-gradle-plugins"
+    }
+}
+
+version = "0.1"
+group = "app.profile.base"
+
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"org.apache.grails.gradle.grails-app"
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.grails.org/grails/restricted" }
+    maven {
+       url = 'https://repository.apache.org/content/groups/snapshots'
+       content {
+          includeVersionByRegex('org[.]apache[.](grails|groovy).*', '.*', '.*-SNAPSHOT')
+       }
+    }
+}
+
+dependencies {
+    console "org.apache.grails:grails-console"
+    developmentOnly "org.springframework.boot:spring-boot-devtools"
+    implementation platform("org.apache.grails:grails-bom:$grailsVersion")
+    implementation "org.springframework.boot:spring-boot-starter-logging"
+    implementation "org.springframework.boot:spring-boot-starter-validation"
+    implementation "org.springframework.boot:spring-boot-autoconfigure"
+    implementation "org.springframework.boot:spring-boot-starter"
+    implementation "org.apache.grails:grails-core"
+    implementation "org.apache.grails:grails-events"
+    profile "org.apache.grails.profiles:base"
+    runtimeOnly "org.fusesource.jansi:jansi"
+    testImplementation "org.apache.grails:grails-testing-support-datamapping"
+    testImplementation "org.spockframework:spock-core"
+}
+
+compileJava.options.release = 17
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
