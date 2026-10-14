@@ -1,0 +1,18 @@
+---
+info:
+    app:
+        name: '@info.app.name@'
+        version: '@info.app.version@'
+        grailsVersion: '@info.app.grailsVersion@'
+grails:
+    codegen:
+        defaultPackage: web.plugin.sample
+    profile: web-plugin
+
+---
+grails:
+    views:
+        gsp:
+            encoding: UTF-8
+            codecs:
+                scriptlet: html
